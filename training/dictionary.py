@@ -1,0 +1,23 @@
+person={
+    'name':'jijash',
+    'age':'20',
+    'hobby':(#tuple
+        'playing',
+        'footballing'
+    ),
+    'family_members':[#sets
+        {
+            'relation':'mother',
+            'name':'rajani'            
+        },
+        {
+           'relation':'fathe',
+            'name':'raju' 
+        }
+    ]
+}
+#print(person)
+print(person['hobby'])
+print(person['hobby'][0])
+print(f"my hobby is {person['hobby'][0]}")#f-string
+print(person['family_members'][0]['relation'])

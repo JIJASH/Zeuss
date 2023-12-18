@@ -1,0 +1,60 @@
+person1={
+    'name':'jijash',
+    'age':'20',
+    'hobby':(
+        'playing',
+        'travelling'
+    ),
+    'family_members':[
+        {
+            'relation':'mother',
+            'name':'rajani'
+        },
+        {
+            'relation':'father',
+            'name':'purushotam'
+        }
+    ]
+}
+person2={
+    'name':'samarpan',
+    'age':'20',
+    'hobby':(
+        'playing',
+        'travelling'
+    ),
+    'family_members':[
+        {
+            'relation':'mother',
+            'name':'aunty'
+        },
+        {
+            'relation':'father',
+            'name':'uncle'
+        }
+    ]
+}
+person3={
+    'name':'suyaasshhh',
+    'age':'21',
+    'hobby':(
+        'playing',
+        'fitness'
+    ),
+    'family_members':[
+        {
+            'relation':'mother',
+            'name':'aunty'
+        },
+        {
+            'relation':'father',
+            'name':'uncle'
+        }
+    ]
+}
+#print(person1,person2,person3)
+print(f"my name is {person1['name']}")
+print(f"my age is {person1['age']}")
+print(f"my first hobby is {person1['hobby'][0]}")
+print(f"my second hobby is {person1['hobby'][1]}")
+print(f"my mother name is {person1['family_members'][0]['name']}")
