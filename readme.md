@@ -37,3 +37,4 @@ git checkout kun_branch_ma_janey_tesko_naam
 
 <!--jastai ma yeuta branch ma xu ra maile tyo branch ma basera arko yeuta branch banaye bhaney just tyo branch ko clone branch banney hoo..simply ma suruma bhako branch ma jj thyo newly creatd brance ma clone huney bhayo..and both of the branches are isolated..bhanna ley they are independent of each other ..yeuta ko updates and changes le arko lai kei problems gardaina...and soo on and onnnn-->
 
+ssh-keygen
